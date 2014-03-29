@@ -32,21 +32,21 @@
 			<div class="navbar-header">
 				<!-- Button for smallest screens -->
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-				<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Progressus HTML5 template"></a>
+				<a class="navbar-brand" href="index.html" ><img height="42" src="assets/images/websitelogo.png" alt="Progressus HTML5 template"></a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
+					<li class="active"><a href="#">Home</a></li>
+					<!-- 	<li><a href="about.html">About</a></li> -->
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
+						<!-- 	<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a> -->
 						<ul class="dropdown-menu">
 							<li><a href="sidebar-left.html">Left Sidebar</a></li>
-							<li><a href="sidebar-right.html">Right Sidebar</a></li>
+							<li class="active"><a href="sidebar-right.html">Right Sidebar</a></li>
 						</ul>
 					</li>
-					<li class="active"><a href="contact.html">Contact</a></li>
-					<li><a class="btn" href="signin.html">SIGN IN / SIGN UP</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<!-- <li><a class="btn" href="signin.html">SIGN IN / SIGN UP</a></li> -->
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
@@ -66,49 +66,65 @@
 		<div class="row">
 			
 			<!-- Article main content -->
-			<article class="col-sm-9 maincontent">
+			<article class="col-sm-8 col-sm-offset-2 maincontent">
 				<header class="page-header">
-					<h1 class="page-title">Contact us</h1>
+					<h1 style="text-align:center"  class="page-title">Advertise with the Bridesmaid App</h1>
 				</header>
 				
 				<p>
-					We’d love to hear from you. Interested in working together? Fill out the form below with some info about your project and I will get back to you as soon as I can. Please allow a couple days for me to respond.
+					Do you want to be featured in the Bridesmaid App? We are looking for any business related to the wedding industry. Click subscribe and complete the payment form to be featured at launch.
+
+
 				</p>
+
 				<br>
-					<form>
-						<div class="row">
-							<div class="col-sm-4">
-								<input class="form-control" type="text" placeholder="Name">
-							</div>
-							<div class="col-sm-4">
-								<input class="form-control" type="text" placeholder="Email">
-							</div>
-							<div class="col-sm-4">
-								<input class="form-control" type="text" placeholder="Phone">
-							</div>
-						</div>
-						<br>
-						<div class="row">
-							<div class="col-sm-12">
-								<textarea placeholder="Type your message here..." class="form-control" rows="9"></textarea>
-							</div>
-						</div>
-						<br>
-						<div class="row">
-							<div class="col-sm-6">
-								<label class="checkbox"><input type="checkbox"> Sign up for newsletter</label>
-							</div>
-							<div class="col-sm-6 text-right">
-								<input class="btn btn-action" type="submit" value="Send message">
-							</div>
-						</div>
+				
+				<div style="text-align:center" >
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHdwYJKoZIhvcNAQcEoIIHaDCCB2QCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYAkFQEd1Xq1uQipukaB+zoz+VUUuiT8cutJQ+oy4WuUAswRoA5/YUFSxx+MX+IGtP6vUkWHJMPGGiuAERYTc3gQHCd10Dy33Js5n5aAZ/Tk3pHPqR92NBpcsXWYWnI39jfYGHNtiaALQTDajUU1Ct6q/2BMo32aB7vVL1APY26zbTELMAkGBSsOAwIaBQAwgfQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIdWwddWIRXBuAgdA/7SIl9rtRELJYKM65iJfdm0gJj0tgpbOiusuU2EJEHvmKu4jJgfAaj7yKaUeySssNi4TeQNMrVrsCcaUVapFNlJe8bc9PexiL6ffYrBrqzEPNpkEzwSxxfYn1ykXD72r36zpXjFL3j4pAQZA9Hcm1FWmob8DgFmxf+IwCzpsdn5KnOkxNuSO8x/iuEiareOl7sSyTg/LGQtJUOKNDxHtPV4DGPZ9HtYk9whRSBOCfR9+p6Druy4xU0j874CSwkFyAY8zZaTMTfxZWoIENxfISoIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTQwMzI5MTQzODIwWjAjBgkqhkiG9w0BCQQxFgQUiAMkmjqJAd7EN8j+VTQwsLZdlY0wDQYJKoZIhvcNAQEBBQAEgYC8uxRzKGORm3+kwuL8KAWDtSTUM/ndgXRohi7E+8VKA9EJQGjsuHUFJsu0YZm9U59/PlexwCi4vaVgJq67k1gDpXbJ/Qqga/ZTJgOgQAMxCOCgVcMZkp8rVjxU2xbY+PIlFmLXepHG6giLzmkmrpSgUe+T0KB0QX0A0wJXR1neog==-----END PKCS7-----
+						">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 					</form>
+
+				</div>
+
+			
+				<!-- <form>
+					<div class="row">
+						<div class="col-sm-4">
+							<input class="form-control" type="text" placeholder="Name">
+						</div>
+						<div class="col-sm-4">
+							<input class="form-control" type="text" placeholder="Email">
+						</div>
+						<div class="col-sm-4">
+							<input class="form-control" type="text" placeholder="Phone">
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-sm-12">
+							<textarea placeholder="Type your message here..." class="form-control" rows="9"></textarea>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-sm-6">
+							<label class="checkbox"><input type="checkbox"> Sign up for newsletter</label>
+						</div>
+						<div class="col-sm-6 text-right">
+							<input class="btn btn-action" type="submit" value="Send message">
+						</div>
+					</div>
+				</form> -->
 
 			</article>
 			<!-- /Article -->
 			
 			<!-- Sidebar -->
-			<aside class="col-sm-3 sidebar sidebar-right">
+		<!-- 	<aside class="col-sm-3 sidebar sidebar-right">
 
 				<div class="widget">
 					<h4>Address</h4>
@@ -121,7 +137,7 @@
 					</address>
 				</div>
 
-			</aside>
+			</aside> -->
 			<!-- /Sidebar -->
 
 		</div>
@@ -200,7 +216,7 @@
 			</div>
 		</div>
 	</footer>	
-		
+
 
 
 
