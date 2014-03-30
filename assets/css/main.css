@@ -1,5 +1,5 @@
 /* Header */
-#head { background:#181015 url( ../images/maids_ex_dark.jpg) no-repeat; background-size: cover; min-height:520px; text-align: center; padding-top:200px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300; }
+#head { background:#181015 url( ../images/maids_ex_dark.jpg) no-repeat; background-size: cover; min-height:520px; text-align: center; padding-top:100px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300; }
 #head.secondary { height:100px; min-height: 100px; padding-top:0px; }
 #head .lead { font-family:"Open sans", Helvetica, Arial; font-size:60px; margin-bottom:0px; color:white; line-height:1.15em; } 
 #head .tagline { color:rgba(255,255,255,0.75); margin-bottom:25px; font-size:35px;}
@@ -28,11 +28,36 @@
 .h-caption i { display:block; font-size: 54px; color:#382526; margin-bottom:36px; }
 .h-caption h4 { color:#382526; font-size: 16px; font-weight: bold; margin-bottom:20px; }
 .h-body { }
-
+`
 
 /* Typography */
-h1, h2, h3, h4, h5, h6 { font-family:"Open sans", Helvetica, Arial; }
-h1, .h1, h2, .h2, h3, .h3 { margin-top:30px; } 
+/*h1, h2, h3, h4, h5, h6 { font-family:"Open sans", Helvetica, Arial; }*/
+body { font-family: MuseoSlab-500; }
+h1, h2, h3, h4, h5 { 
+	font-family: MuseoSlab-500; 
+	font-weight: normal; 
+	font-style: normal; 
+}
+
+
+h1 {
+	font-size:62px;
+	margin-left:-2px; 
+}
+
+h3 {
+	font-size:18px;
+}
+
+h4 {
+	font-size:15px;
+}
+
+h3,h4 {
+	line-height:144%
+}
+
+h1, .h1, h2, .h2, h3, .h3 { margin-top:-4px; } 
 blockquote { font-style: italic; font-family: Georgia; color:#999; margin:30px 0 30px; }
 label { color: #777; }
 .thin { font-weight:300; }
@@ -86,4 +111,58 @@ img.pull-left { margin-right: 10px; }
 
 	background-image: url( ../images/pattern.jpg);
 	background-repeat:repeat-x;
+}
+
+.banner_op {
+	opacity:0.4;
+}
+
+.second{
+	.nav-left{
+		float: left;
+	}
+	ul{
+		padding: 30px 0;
+	}
+	.nav-right{
+		float: right;
+	}
+	.logo{
+		padding: 20px 0;
+		display: inline-block;
+	}
+}
+
+img {
+	padding:0px;
+	border:0px;
+	margin:-2px;
+}
+
+div.transbox
+{
+	width:700px;
+	height:180px;
+
+	background-color:#000000;
+	opacity:0.6;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#container {
+
+	position: relative;
+}
+
+#navi, 
+#infoi {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+#navi {
+	z-index: 1;
 }
