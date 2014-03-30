@@ -3,7 +3,8 @@
 <head>
 
 	<meta charset="utf-8">
-	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<!-- <meta name="viewport"    content="width=device-width, initial-scale=1.0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="description" content="">
 
 	<title>Home - Bridesmaids App</title>
@@ -23,6 +24,7 @@
 	<script src="assets/js/html5shiv.js"></script>
 	<script src="assets/js/respond.min.js"></script>
 	<![endif]-->
+
 </head>
 
 <body class="home">
@@ -30,21 +32,26 @@
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container" style="text-align: center;">
 			<a href="index.html" >
-				<img height="52" src="assets/images/FINALLOGO_web.png" alt="Progressus HTML5 template">
+				<img width="375" src="assets/images/FINALLOGO_web.png" alt="Progressus HTML5 template">
 			</a>
 		</div>
 	</div>
 
-	<header id="head">
+	<header id="head" >
+
+		<div id="infoi" class="transbox hidden-xs" style="margin-top:318px;   height: 100px;"></div>
+
 		<div class="container">
-			<br><br><br><br><br>
+			
 			<div class="row" >
+
 				<div id="navi">
-					<div class="col-sm-4 col-sm-offset-2">
+
+					<div class="hidden-xs col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2">
 						<img height="450" src="assets/images/walkthrough/galaxy.png" alt="Progressus HTML5 template">
 					</div>
 
-					<div class="col-sm-4" style="text-align:left">
+					<div class="col-sm-6 col-md-5 col-lg-4" style="text-align:left">
 						<h1 class="thin" > Plan Better, Together.</h1>
 						<br>
 
@@ -60,7 +67,7 @@
 								<input type="email" class="form-control" name="_replyto"  placeholder="Enter email">
 							</div>
 
-							<button type="submit" value="Send" class="btn-sm btn-primary" style="padding-top:7px; padding-bottom:9px">Submit</button>
+							<button id="button_width" type="submit" value="Send" class="btn-sm btn-primary" style="padding-top:7px; padding-bottom:9px">Submit</button>
 
 						</form>
 
@@ -68,9 +75,9 @@
 						<div class="widget-body" style="margin-top:-5px;">
 							<p class="follow-me-icons">
 								<a href="https://twitter.com/BridesmaidsApp"><i class="fa fa-twitter fa-2"></i></a>
-								<!-- 		<a href=""><i class="fa fa-dribbble fa-2"></i></a> -->
-								<!-- 					<a href=""><i class="fa fa-github fa-2"></i></a> -->
 								<a href="https://www.facebook.com/bridesmaidsapp"><i class="fa fa-facebook fa-2"></i></a>
+								<a href="http://www.pinterest.com/bridesmaidsapp/"><i class="fa fa-pinterest fa-2"></i></a>
+								<a href="http://instagram.com/bridesmaidsapp"><i class="fa fa-instagram fa-2"></i></a>
 							</p>	
 						</div>
 
@@ -78,47 +85,96 @@
 
 				</div>
 
-				<div id="infoi" class="transbox" style="margin-top:145px;  margin-left:-135px; height: 100px;  width:1440px;"></div>
+
+
 			</div>
 
-			<br><br><br>
-	
-		<div class="row" >
+			<br><br>
 
-			<div class="col-sm-3 col-sm-offset-0">
-				<h5 style="text-align:left">Thanks to our sponsors</h5>
-			</div>
+			<div class="row" >
 
-			<div class="col-sm-3 col-sm-offset-6">
-				<a href="advertise.html"><h5 style="text-align:right">Advertise with Bridesmaids App</h5></a>
+				<div class="col-sm-6 hidden-xs">
+					<h5 style="text-align:left">Thanks to our sponsors</h5>
+				</div>
+
+				<div class="col-sm-6 hidden-xs">
+					<a href="advertise.html"><h5 style="text-align:right">Advertise with Bridesmaids App</h5></a>
+				</div>
+
+				<div class="hidden-md hidden-lg hidden-sm">
+					<h5 style="text-align:center">Thanks to our sponsors</h5>
+					<a href="advertise.html"><h5 style="text-align:center">Advertise with Bridesmaids App</h5></a>
+				</div>
 			</div>
 		</div>
-			</div>
 	</header>
 
-	<div class="container text-center">
+	<div class="hidden-xs container text-center">
 
 		<br>
-
-		<a href="http://www.shadyelmsfarm.com" target="_blank"><img height="60" style="padding-right:1cm" src="assets/images/sponsor_images/shady_elms_farms.gif" alt="Progressus HTML5 template">
-		</a>
 
 		<a href="http://romeodelivers.com" target="_blank"><img height="60" style="padding-right:1cm" src="
 			assets/images/sponsor_images/romeo_delivers.png" alt="Progressus HTML5 template">
 		</a>
 
-		<a href="http://www.cookiesfromthehart.com" target="_blank"><img height="60" style="padding-right:1cm" src="assets/images/sponsor_images/cookies_from_the_hart.jpg" alt="Progressus HTML5 template">
+		<a href="http://www.shadyelmsfarm.com" target="_blank"><img height="50" style="padding-right:1cm" src="assets/images/sponsor_images/lily_strum.png" alt="Progressus HTML5 template">
+		</a>
+
+		<a href="http://www.shadyelmsfarm.com" target="_blank"><img height="60" style="padding-right:1cm" src="assets/images/sponsor_images/shady_elms_farms.gif" alt="Progressus HTML5 template">
+		</a>
+		
+		<a href="http://www.shadyelmsfarm.com" target="_blank"><img height="50" style="padding-right:1cm" src="assets/images/sponsor_images/griffith_careting_and_design.jpg" alt="Progressus HTML5 template">
+		</a>
+
+		<a href="http://www.cookiesfromthehart.com" target="_blank"><img height="60" style="padding-right:1cm" src="assets/images/sponsor_images/cookieslogo.jpg" alt="Progressus HTML5 template">
+		</a>
+
+
+		<a href="http://www.hennejewelers.com" target="_blank"><img height="60" style="padding-right:0cm" src="
+			assets/images/sponsor_images/henne.jpg" alt="Progressus HTML5 template">
 		</a>
 
 		<a href="http://www.creamnsugarcoffeebar.com" target="_blank"><img height="60" style="padding-right:1cm" src="assets/images/sponsor_images/cream_sugar.jpg" alt="Progressus HTML5 template"></a>
 
-		<a href="http://www.hennejewelers.com" target="_blank"><img height="60" style="padding-right:1cm" src="
+
+	</div>
+
+	<div class="hidden-sm hidden-md hidden-lg container text-center">
+
+		<br>
+
+		<a href="http://romeodelivers.com" target="_blank"><img height="30" style="padding-right:1cm" src="
+			assets/images/sponsor_images/romeo_delivers.png" alt="Progressus HTML5 template">
+		</a>
+
+		<a href="http://www.shadyelmsfarm.com" target="_blank"><img height="30" style="padding-right:ocm" src="assets/images/sponsor_images/lily_strum.png" alt="Progressus HTML5 template">
+		</a>
+
+		<br>
+		<br>
+
+		<a href="http://www.shadyelmsfarm.com" target="_blank"><img height="30" style="padding-right:1cm" src="assets/images/sponsor_images/shady_elms_farms.gif" alt="Progressus HTML5 template">
+		</a>
+		
+		<a href="http://www.shadyelmsfarm.com" target="_blank"><img height="30" style="padding-right:0cm" src="assets/images/sponsor_images/griffith_careting_and_design.jpg" alt="Progressus HTML5 template">
+		</a>
+
+		<br>
+		<br>
+
+		<a href="http://www.cookiesfromthehart.com" target="_blank"><img height="30" style="padding-right:1cm" src="assets/images/sponsor_images/cookieslogo.jpg" alt="Progressus HTML5 template">
+		</a>
+
+
+		<a href="http://www.hennejewelers.com" target="_blank"><img height="30" style="padding-right:1cm" src="
 			assets/images/sponsor_images/henne.jpg" alt="Progressus HTML5 template">
 		</a>
 
-		<a href="http://lilyandstrum.com" target="_blank"><img height="60" style="padding-right:0cm" src="
-			assets/images/sponsor_images/lily_strum.png" alt="Progressus HTML5 template">
-		</a>
+		<a href="http://www.creamnsugarcoffeebar.com" target="_blank"><img height="30" style="padding-right:0cm" src="assets/images/sponsor_images/cream_sugar.jpg" alt="Progressus HTML5 template"></a>
+
+
+		<br>
+		<br>
 
 	</div>
 
