@@ -166,3 +166,17 @@ div.transbox
 #navi {
 	z-index: 1;
 }
+
+
+a:link {
+COLOR: #ACE5BD;
+}
+a:visited {
+COLOR: #ACE5BD;
+}
+a:hover {
+COLOR: #ACE5BD;
+}
+a:active {
+COLOR: #ACE5BD;
+}
